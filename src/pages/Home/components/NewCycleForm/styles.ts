@@ -50,4 +50,16 @@ export const MinutesAmountInput = styled(BaseInput)`
 
     width: 4rem;
 
+    /* Chrome, Safari, Edge, Opera */
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+
+    /* Firefox */
+    &[type=number] {
+    -moz-appearance: textfield;
+    }
+
 `;
